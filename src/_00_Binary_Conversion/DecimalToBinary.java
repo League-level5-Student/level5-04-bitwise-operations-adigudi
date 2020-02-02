@@ -1,11 +1,11 @@
 package _00_Binary_Conversion;
 
-public class Decimal_To_Binary {
+public class DecimalToBinary {
 	public static void main(String[] args) {
 		//Converting a decimal number to binary is a little trickier.
 		
 		//EXAMPLE: Convert 43 to binary
-		
+		System.out.println(Integer.toBinaryString(43));
 		/*
 		 * Step 1: Start with one and add a digit the left that is double the value of the previous number.
 		 *         Stop when you've passed the target number        
